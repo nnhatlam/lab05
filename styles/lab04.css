@@ -1,0 +1,138 @@
+/*
+filename: nhatlam
+author: nhatlam
+created: 26 Sep 2025
+last modified: 26 Sep 2025
+description: CSS file for lab04.html
+*/
+
+/* Global styles */
+* {
+    color: white;
+    margin: auto; 
+    box-sizing: border-box;
+}
+
+/* Header and navigation styles */
+ header{
+    background-color: #ffffe4;  /* light grey-yellow*/
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #305890; /* dark blue */
+    font-weight: normal;
+    padding: 8px;
+    border: 1px solid rgb(0, 17, 32);
+    background-color: #ffd500; /* yellow */
+    margin: auto;
+    font-style: italic;
+}
+
+hr{
+    border: 1px solid #305890; /* dark blue */
+    margin-top: 10px;
+}
+
+/* Main Content style */
+article{
+    background-color: #305890; /* dark blue */
+    margin-left: 1px;
+    padding: 1em;
+    overflow: hidden;
+}
+
+h1{
+    color: #1f3a60; /* dark blue */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    font-size: 2em;
+}
+h2{
+    color: #ee00ff; /* light green */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    font-size: 20px ;
+}
+h3{
+    color: #e4c71d; /* light yellow */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    margin-left: 15px;
+    font-size: 16px ;
+}
+
+table{
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;    
+}
+
+table th, td{
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #1f3a60;
+        background-color:  #ffffe4; /* light grey-yellow*/
+        color: #1f3a60;
+}
+
+.month{
+    text-align: right;
+}
+
+aside, footer{
+    font-style: italic;
+}
+
+/* Special style */
+.special{
+    color: darkorange; /* light blue */
+    font-weight:  bold;
+    font-size: 14px ;
+}
+
+#list {
+    color: #00ffea; /* light blue */
+    font-weight:  bold;
+    font-size: 14px ;
+}
+
+/* Contextual selectors */
+ol ul{
+    font-style: italic;
+    list-style-type: square;
+}
+
+/* Pseudo Classes */
+aside:hover {
+    display: none;
+}
+a:hover {
+    color: #e4e8ee;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #305890; /* dark blue */
+}
+button {
+    background-color: #ffd500; /* yellow */
+    border: none;
+    color: #305890; /* dark blue */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
